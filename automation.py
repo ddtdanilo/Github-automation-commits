@@ -71,5 +71,5 @@ if __name__ == "__main__":
     add_text_to_file(file_path, commit_message + "\n")
     commit_to_repo(repo_path, commit_message)
     print("Starting in 5 seconds!")
-    time.delay(5)
+    time.sleep(5)
     run_commits()
