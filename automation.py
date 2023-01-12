@@ -70,5 +70,6 @@ if __name__ == "__main__":
     commit_message = f"Commit at {time.asctime()} - STARTING"
     add_text_to_file(file_path, commit_message + "\n")
     commit_to_repo(repo_path, commit_message)
-    print("Starting!")
+    print("Starting in 5 seconds!")
+    time.sleep(5)
     run_commits()
